@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+/* 
+.cards-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #f7f8fc;
+    font-family: "Roboto", sans-serif;
+    color: #10182f;
+}
+
+.container {
+    display: flex;
+    width: 1040px;
+
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 250px;
+
+}
+
+.card-header img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    margin-right: 1rem;
+    min-height: 30px;
+
+}
+
+.tag {
+    background: #cccccc;
+    border-radius: 50px;
+    font-size: 10px;
+    margin-right: 8px;
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.tag-teal {
+    background-color: #47bcd4;
+}
+
+.tag-purple {
+    background-color: #5e76bf;
+}
+
+.tag-pink {
+    background-color: #cd5b9f;
+}
+
+
+h4 {
+    margin-left: 1.4rem;
+    margin-bottom: 6px;
+}
+
+.list_item {
+    padding-bottom: 0px;
+}
+
+.list_item ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 1rem;
+
+}
+
+.list_item li {
+    position: relative;
+    right: 8%;
+    margin-bottom: 5px;
+} */
+
+.user-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+   
+}
+
+.user-container:hover{
+    transform: scale(1.04);
+    transition: all 0.2s ease-out;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.user-url{
+    font-size: 16px;
+    color: gray;
+}
+
+.info{
+    display: flex;
+    margin-right: 4px;
+    justify-content: space-between;
+}
+
+.value{
+    color: gray;
+    margin-right: 15px;
+    
+}
+
+a input{
+    width: 100px;
+    padding: 5px 10px;
+    background-color: #3498db;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+span.label{
+    font-size: small;
+    font-weight: bold;
+    margin-right: 3px;
+}
